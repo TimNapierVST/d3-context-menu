@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: lendfast
+    database: userdb_timothynapier
+    schema: bronze_lendfast
+    tags: 
+      - salesforce    
+    tables:
+      - name: asset
